@@ -1,0 +1,10 @@
+name          'witjoh-profiles'
+version       '0.1.0'
+source        'https://github.com/witjoh/pepuppet-profiles.git'
+author        'witjoh'
+license       'Apache 2.0'
+summary       'My wierd. wicked implementation of profiles, from the profiles/roles pattern'
+description   ''
+project_page  'https://github.com/witjoh/pepuppet-profiles'
+
+dependency 'puppetlabs/stdlib'
