@@ -14,7 +14,7 @@ class profiles::hypervisor {
   libvirt_pool { 'guest_images_pool':
     ensure     => present,
     type       => 'logical',
-    activate   => true,
+    active     => true,
     autostart  => true,
     sourcedev  => '/dev/sdb1',
     sourcename => 'guest_images_lvm',
